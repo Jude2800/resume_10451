@@ -1,0 +1,105 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #30D5C8;
+  color: #333;
+  text-align: center;
+}
+
+header {
+  background-color: #222;
+  padding: 1em;
+}
+
+header nav a {
+  color: #fff;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header nav a:hover {
+  color: #FFD700;
+}
+
+section {
+  padding: 2em 0;
+}
+
+#home {
+  background-color: #30D5C8;
+  padding: 3em 0;
+}
+
+h1 {
+  font-size: 2.5em;
+  color: #333;
+  margin-top: 1em;
+}
+
+h2 {
+  font-size: 2em;  /* Increased font size for yellow headings */
+  color: #FFD700;
+  margin-top: 0.5em;  /* Reduced gap between yellow headings and top bar */
+  margin-bottom: 1.5em; /* Increased gap between yellow headings and entries */
+}
+
+h3 {
+  font-weight: bold;
+}
+
+.entry {
+  margin: 2em 0; /* Adds more space between entries */
+}
+
+.social-links img {
+  width: 30px;
+  margin: 0 10px;
+  transition: transform 0.3s;
+}
+
+.social-links img:hover {
+  transform: scale(1.1);
+}
+
+.profile-picture {
+  margin-top: 20px;
+}
+
+.profile-picture img {
+  width: 200px;
+  height: 250px;  /* Increased height for oval shape */
+  border-radius: 50%; /* Keeps the image rounded for an oval appearance */
+  object-fit: cover;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+}
+
+.contact-entry {
+  display: flex;
+  align-items: center;
+}
+
+.contact-entry img {
+  width: 24px;
+  margin-right: 10px;
+}
+
+/* Additional Styling */
+#education, #skills, #hobbies, #contact {
+  background-color: #fff;
+  padding: 3em 0;
+}
+
+ 
